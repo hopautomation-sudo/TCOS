@@ -1,0 +1,416 @@
+Welcome to Node.js v25.8.1.
+Type ".help" for more information.
+> import React from 'react';
+import React from 'react';
+^^^^^^
+
+Uncaught:
+SyntaxError: Cannot use import statement inside the Node.js REPL, alternatively use dynamic import: const { default: React } = await import("react");
+>
+> const TCOSLandingPage = () => {
+|   return (
+|     <div className="bg-[#0A0A0A] text-[#F5F5F5] font-sans selection:bg-[#E30613]">
+    <div className="bg-[#0A0A0A] text-[#F5F5F5] font-sans selection:bg-[#E30613]">
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       {/* 01. NAVIGATION BAR */}
+{}
+>       <nav className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-[#4A4A4A] px-6 py-4 flex justify-between items-center">
+      <nav className="sticky top-0 z-50 bg-[#0A0A0A]/90 backdrop-blur-md border-b border-[#4A4A4A] px-6 py-4 flex justify-between items-center">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2">
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <div className="w-8 h-8 bg-[#E30613] rounded-sm"></div> {/* Placeholder for Viettel Logo */}
+          <div className="w-8 h-8 bg-[#E30613] rounded-sm"></div> {/* Placeholder for Viettel Logo */}
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <span className="font-bold text-xl tracking-tight uppercase">Viettel Networks</span>
+          <span className="font-bold text-xl tracking-tight uppercase">Viettel Networks</span>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         </div>
+        </div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div className="hidden md:flex gap-8 text-sm font-medium">
+        <div className="hidden md:flex gap-8 text-sm font-medium">
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <a href="#about" className="hover:text-[#E30613] transition">TCOS là gì?</a>
+          <a href="#about" className="hover:text-[#E30613] transition">TCOS là gì?</a>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <a href="#vision" className="hover:text-[#E30613] transition">Tầm nhìn</a>
+          <a href="#vision" className="hover:text-[#E30613] transition">Tầm nhìn</a>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <a href="#management" className="hover:text-[#E30613] transition">Lớp quản trị</a>
+          <a href="#management" className="hover:text-[#E30613] transition">Lớp quản trị</a>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <a href="#safety" className="hover:text-[#E30613] transition">Bảo trì & An toàn</a>
+          <a href="#safety" className="hover:text-[#E30613] transition">Bảo trì & An toàn</a>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         </div>
+        </div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <button className="bg-[#E30613] hover:bg-[#c40511] px-6 py-2 rounded-full font-bold text-sm transition-all transform hover:scale-105">
+        <button className="bg-[#E30613] hover:bg-[#c40511] px-6 py-2 rounded-full font-bold text-sm transition-all transform hover:scale-105">
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           Tư vấn ngay
+          Tư vấn ngay
+             ^^^
+
+Uncaught SyntaxError: Unexpected identifier 'vấn'
+>         </button>
+        </button>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </nav>
+      </nav>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+>       {/* 02. HERO SECTION */}
+{}
+>       <section className="relative h-screen flex items-center justify-center overflow-hidden px-6">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden px-6">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-30"></div>
+        <div className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-30"></div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent to-[#0A0A0A]"></div>
+        <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent to-[#0A0A0A]"></div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+undefined
+>         <div className="relative z-20 text-center max-w-5xl">
+        <div className="relative z-20 text-center max-w-5xl">
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <span className="text-[#E30613] font-bold tracking-[0.3em] text-sm mb-4 block">VIETTEL NETWORKS</span>
+          <span className="text-[#E30613] font-bold tracking-[0.3em] text-sm mb-4 block">VIETTEL NETWORKS</span>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <h1 className="text-5xl md:text-8xl font-black mb-6 leading-tight italic">
+          <h1 className="text-5xl md:text-8xl font-black mb-6 leading-tight italic">
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             TCOS: HỆ SINH THÁI <br/>
+            TCOS: HỆ SINH THÁI <br/>
+                     ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'SINH'
+>             <span className="text-[#E30613]">DATA CENTER SỐNG.</span>
+            <span className="text-[#E30613]">DATA CENTER SỐNG.</span>
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           </h1>
+          </h1>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <p className="text-[#4A4A4A] text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
+          <p className="text-[#4A4A4A] text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             Đồng bộ tư duy vận hành và quản trị vòng đời tài sản theo tiêu chuẩn bền vững toàn cầu.
+            Đồng bộ tư duy vận hành và quản trị vòng đời tài sản theo tiêu chuẩn bền vững toàn cầu.
+                 ^^
+
+Uncaught SyntaxError: Unexpected identifier 'bộ'
+>             <span className="text-white font-medium"> Xóa bỏ lối mòn tư duy - Kiến tạo giá trị bền vững.</span>
+            <span className="text-white font-medium"> Xóa bỏ lối mòn tư duy - Kiến tạo giá trị bền vững.</span>
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           </p>
+          </p>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <button className="border-2 border-white hover:bg-white hover:text-black px-10 py-4 rounded-full font-bold text-lg transition-all">
+          <button className="border-2 border-white hover:bg-white hover:text-black px-10 py-4 rounded-full font-bold text-lg transition-all">
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             Khám phá giải pháp
+            Khám phá giải pháp
+                 ^^^
+
+Uncaught SyntaxError: Unexpected identifier 'phá'
+>           </button>
+          </button>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         </div>
+        </div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </section>
+      </section>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+>       {/* 04. CORE BENEFITS (Outside-In Logic) */}
+{}
+>       <section className="py-24 px-6 bg-[#1A1A1A]">
+      <section className="py-24 px-6 bg-[#1A1A1A]">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto">
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <h2 className="text-[#E30613] text-3xl font-bold mb-16 border-l-4 border-[#E30613] pl-6 uppercase">
+          <h2 className="text-[#E30613] text-3xl font-bold mb-16 border-l-4 border-[#E30613] pl-6 uppercase">
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             Logic tiếp cận từ ngoài vào trong
+            Logic tiếp cận từ ngoài vào trong
+                  ^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'tiếp'
+>           </h2>
+          </h2>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+undefined
+>           <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             {/* Macro Layer */}
+{}
+>             <div className="group p-10 bg-[#0A0A0A] border border-[#4A4A4A] hover:border-[#E30613] transition-all duration-500">
+            <div className="group p-10 bg-[#0A0A0A] border border-[#4A4A4A] hover:border-[#E30613] transition-all duration-500">
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <div className="mb-6 text-[#E30613] group-hover:scale-110 transition-transform">
+              <div className="mb-6 text-[#E30613] group-hover:scale-110 transition-transform">
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>                 <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 00118 0z" /></svg>
+                <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               </div>
+              </div>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <h3 className="text-2xl font-bold mb-4 italic">Lớp Macro</h3>
+              <h3 className="text-2xl font-bold mb-4 italic">Lớp Macro</h3>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <p className="text-[#4A4A4A] leading-relaxed">Vị trí địa lý và Tòa nhà. Kiểm soát rủi ro môi trường dàihạn và chi phí cố định.</p>
+              <p className="text-[#4A4A4A] leading-relaxed">Vị trí địa lý và Tòa nhà. Kiểm soát rủi ro môi trường dài hạn và chi phí cố định.</p>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             </div>
+            </div>
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+>             {/* System Layer */}
+{}
+>             <div className="group p-10 bg-[#0A0A0A] border border-[#4A4A4A] hover:border-[#E30613] transition-all duration-500">
+            <div className="group p-10 bg-[#0A0A0A] border border-[#4A4A4A] hover:border-[#E30613] transition-all duration-500">
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <div className="mb-6 text-[#E30613] group-hover:scale-110 transition-transform">
+              <div className="mb-6 text-[#E30613] group-hover:scale-110 transition-transform">
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>                 <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.941.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               </div>
+              </div>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <h3 className="text-2xl font-bold mb-4 italic">Lớp Hệ thống</h3>
+              <h3 className="text-2xl font-bold mb-4 italic">Lớp Hệ thống</h3>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <p className="text-[#4A4A4A] leading-relaxed">Hạ tầng và Duy trì. Thiết kế phục vụ thực tế vận hành, không gây gián đoạn.</p>
+              <p className="text-[#4A4A4A] leading-relaxed">Hạ tầng và Duy trì. Thiết kế phục vụ thực tế vận hành, không gây gián đoạn.</p>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             </div>
+            </div>
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+>             {/* Management Layer */}
+{}
+>             <div className="group p-10 bg-[#0A0A0A] border border-[#4A4A4A] hover:border-[#E30613] transition-all duration-500">
+            <div className="group p-10 bg-[#0A0A0A] border border-[#4A4A4A] hover:border-[#E30613] transition-all duration-500">
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <div className="mb-6 text-[#E30613] group-hover:scale-110 transition-transform">
+              <div className="mb-6 text-[#E30613] group-hover:scale-110 transition-transform">
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>                 <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 03 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 33 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               </div>
+              </div>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <h3 className="text-2xl font-bold mb-4 italic">Lớp Quản trị</h3>
+              <h3 className="text-2xl font-bold mb-4 italic">Lớp Quản trị</h3>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>               <p className="text-[#4A4A4A] leading-relaxed">Con người và Văn hóa. Sự kết hợp giữa phần cứng ổn định và phần mềm linh hoạt.</p>
+              <p className="text-[#4A4A4A] leading-relaxed">Con người và Văn hóa. Sự kết hợp giữa phần cứng ổn định và phần mềm linh hoạt.</p>
+              ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             </div>
+            </div>
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           </div>
+          </div>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         </div>
+        </div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </section>
+      </section>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>
+>       {/* 08. VISION STATEMENT */}
+{}
+>       <section className="py-32 px-6 flex flex-col items-center text-center">
+      <section className="py-32 px-6 flex flex-col items-center text-center">
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <h4 className="text-[12rem] md:text-[20rem] font-black text-[#1A1A1A] leading-none select-none">20 NĂM</h4>
+        <h4 className="text-[12rem] md:text-[20rem] font-black text-[#1A1A1A] leading-none select-none">20 NĂM</h4>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         <div className="-mt-20 md:-mt-40 z-10 max-w-4xl">
+        <div className="-mt-20 md:-mt-40 z-10 max-w-4xl">
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           <blockquote className="text-2xl md:text-4xl font-light italic leading-relaxed">
+          <blockquote className="text-2xl md:text-4xl font-light italic leading-relaxed">
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>             "TCOS không hỏi hệ thống hiện đại đến đâu. <br className="hidden md:block"/>
+            "TCOS không hỏi hệ thống hiện đại đến đâu. <br className="hidden md:block"/>
+                                                                      ^^^^^^
+
+Uncaught SyntaxError: Unexpected identifier 'hidden'
+>             <span className="text-[#E30613] font-bold">TCOS hỏi:</span> Bạn sẽ quản lý nó thế nào trong 20 năm để tốiưu chi phí và rủi ro?"
+            <span className="text-[#E30613] font-bold">TCOS hỏi:</span> Bạn sẽ quản lý nó thế nào trong 20 năm để tối ưu chi phí và rủi ro?"
+            ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>           </blockquote>
+          </blockquote>
+          ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>         </div>
+        </div>
+        ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>       </section>
+      </section>
+      ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>     </div>
+    </div>
+    ^
+
+Uncaught SyntaxError: Unexpected token '<'
+>   );
+  );
+  ^
+
+Uncaught SyntaxError: Unexpected token ')'
+> };
+};
+^
+
+Uncaught SyntaxError: Unexpected token '}'
+>
+> export default TCOSLandingPage;
